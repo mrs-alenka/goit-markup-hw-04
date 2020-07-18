@@ -233,7 +233,8 @@
 }
 .portfolio .link:hover,
 .portfolio .link:focus {
-  color: var(--accent-color);
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
   cursor: pointer;
 }
 .portfolio {
@@ -259,6 +260,7 @@
 .my-work:focus {
   box-shadow: 1px 4px 6px rgba(0, 0, 0, 0.16), 0px 4px 4px rgba(0, 0, 0, 0.06),
     0px 1px 1px rgba(0, 0, 0, 0.12);
+  outline: 1px solid #eeeeee;
 }
 .card-content {
   padding: 20px 22px;
