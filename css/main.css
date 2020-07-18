@@ -254,10 +254,9 @@
   width: calc((100% - 60px) / 3);
   margin-right: 30px;
   margin-bottom: 30px;
-  overflow: hidden;
 }
-.my-work:hover,
-.my-work:focus {
+.my-work .link:hover,
+.my-work .link:focus {
   box-shadow: 1px 4px 6px rgba(0, 0, 0, 0.16), 0px 4px 4px rgba(0, 0, 0, 0.06),
     0px 1px 1px rgba(0, 0, 0, 0.12);
   outline: 1px solid #eeeeee;
